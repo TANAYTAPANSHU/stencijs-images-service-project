@@ -24,9 +24,9 @@ npm start
 
 ### Application Screenshots: 
 
-![Main Page](https://drive.google.com/file/d/1qXSqgMo6ogKEOJ-mk3t1A-ofSaEEci-k/view?usp=sharing)
+![Main Page](https://firebasestorage.googleapis.com/v0/b/native-collegebeats.appspot.com/o/Screenshot%202023-05-02%20at%201.51.28%20AM.png?alt=media&token=85e1fc3f-37ed-4b5a-b809-eff45b779914)
 
-![Details Page](https://drive.google.com/file/d/1DFeFsBw4aoORK9ANQVe5ArFD5BewjXsy/view?usp=sharing)
+![Details Page](https://firebasestorage.googleapis.com/v0/b/native-collegebeats.appspot.com/o/Screenshot%202023-05-02%20at%201.51.38%20AM.png?alt=media&token=7c12f049-00fa-41c7-a06e-9b1032598b28)
 
 
 
