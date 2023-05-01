@@ -1,0 +1,61 @@
+$bg-color: #f0bcbc;
+
+.page-one-container {
+  display: flex;
+  flex-direction: column;
+  padding: 5%;
+  align-items: center;
+  background-color: $bg-color;
+  height: 100vh;
+
+  .container {
+    width: 100%;
+  }
+
+  h1 {
+    font-size: 35px;
+    margin-bottom: 20px;
+    font-style: italic;
+  }
+
+  calcite-list {
+    width: 70%;
+    margin-top: 20px;
+    list-style: none;
+
+    .service-item {
+      background-color: white;
+      margin-block: 5px;
+      padding: 1%;
+      border-width: 2px;
+      border-style: solid;
+
+      &:hover {
+        background-color: #e4dcdc;
+      }
+
+      .title {
+        font-size: 21px;
+        font-weight: bold;
+      }
+      .type {
+        font-size: 17px;
+      }
+    }
+  }
+
+  .service-details {
+    .service-modal {
+      #modal-title {
+        font-size: 24px;
+        font-weight: 700;
+        color: #d50707;
+      }
+      .content {
+        p {
+          font-size: larger;
+        }
+      }
+    }
+  }
+}
