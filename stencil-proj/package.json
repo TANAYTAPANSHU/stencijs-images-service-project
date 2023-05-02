@@ -28,6 +28,7 @@
   "dependencies": {
     "@stencil/core": "^3.0.0",
     "@stencil/router": "^1.0.1",
+    "@stencil/sass": "^3.0.2",
     "@types/babel__traverse": "^7.18.4",
     "typescript": "^5.0.4"
   },

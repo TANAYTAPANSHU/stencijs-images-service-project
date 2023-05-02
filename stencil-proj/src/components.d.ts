@@ -6,38 +6,37 @@
  */
 import { HTMLStencilElement, JSXBase } from "@stencil/core/internal";
 export namespace Components {
-    interface PageOne {
+    interface MainComponent {
     }
 }
-export interface PageOneCustomEvent<T> extends CustomEvent<T> {
+export interface MainComponentCustomEvent<T> extends CustomEvent<T> {
     detail: T;
-    target: HTMLPageOneElement;
+    target: HTMLMainComponentElement;
 }
 declare global {
-    interface HTMLPageOneElement extends Components.PageOne, HTMLStencilElement {
+    interface HTMLMainComponentElement extends Components.MainComponent, HTMLStencilElement {
     }
-    var HTMLPageOneElement: {
-        prototype: HTMLPageOneElement;
-        new (): HTMLPageOneElement;
+    var HTMLMainComponentElement: {
+        prototype: HTMLMainComponentElement;
+        new (): HTMLMainComponentElement;
     };
     interface HTMLElementTagNameMap {
-        "page-one": HTMLPageOneElement;
+        "main-component": HTMLMainComponentElement;
     }
 }
 declare namespace LocalJSX {
-    interface PageOne {
-        "onCalciteModalClose"?: (event: PageOneCustomEvent<void>) => void;
-        "onNextClick"?: (event: PageOneCustomEvent<{ key: string }>) => void;
+    interface MainComponent {
+        "onCalciteModalClose"?: (event: MainComponentCustomEvent<void>) => void;
     }
     interface IntrinsicElements {
-        "page-one": PageOne;
+        "main-component": MainComponent;
     }
 }
 export { LocalJSX as JSX };
 declare module "@stencil/core" {
     export namespace JSX {
         interface IntrinsicElements {
-            "page-one": LocalJSX.PageOne & JSXBase.HTMLAttributes<HTMLPageOneElement>;
+            "main-component": LocalJSX.MainComponent & JSXBase.HTMLAttributes<HTMLMainComponentElement>;
         }
     }
 }
